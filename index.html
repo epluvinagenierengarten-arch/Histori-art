@@ -1,0 +1,203 @@
+<!DOCTYPE html> 
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <title>Histori'art</title>
+</head>
+
+<body class="body">
+    <header class="banner">
+        <h1> Histori'art </h1>
+        <div class="main">
+            <h2>Le jeu de cartes sur l'histoire de l'art</h2>
+        </div>
+        <div class="guide">
+            <div class="entree">
+                <a href="index.html">✦Menu</a>
+            </div>
+            <div class="entree">
+                <a href="annexe.html">✦ Les cartes</a>
+            </div>
+            <div class="entree">
+                <a href="collection.html">✦ Les collections</a>
+            </div>
+        </div>
+        <button class="button" id="themeToggle">Mode clair</button>
+    </header>
+
+    <main>
+
+        <div class="bandeau2">
+
+            <div class="cards-stage">
+                <div class="card card--far" data-index="2">
+                    <div class="card-inner">
+                        <div class="card-image">
+                            <img src="joconde.png" alt="joconde">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card--mid" data-index="1">
+                    <div class="card-inner">
+                        <div class="card-image">
+                            <img src="pecher.png" alt="pecher VG">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card--front card--active" data-index="0">
+                    <div class="card-inner">
+                        <div class="card-image">
+                            <img src="lavilleseleve.png" alt="La Ville se lève">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bandeau2-text">
+                <h3 class="bandeau2-title">✦ Collection exclusive à chaque musée✦</h3>
+                <p class="bandeau2-body">
+                    Les joueurs constituent leur galerie virtuelle en acquérant des cartes illustrées 
+                avec une fidélité exceptionnelle, détaillant l'œuvre, l'artiste et son contexte historique.<br>
+                Au-delà de la collection, le jeu propose des duels où les cartes s'affrontent selon leur influence, 
+                leur technique ou leur rareté.<br>L'objectif est de compléter les séries spécifiques à chaque institution 
+                pour devenir le conservateur le plus prestigieux.<br>Alliant culture et stratégie, 
+                Histor'iart offre une exploration ludique et éducative de l'histoire de l'art, 
+                idéale pour les passionnés comme pour les curieux souhaitant voyager à travers les plus beaux musées du monde.
+                </p>
+                <div class="bandeau2-dots">
+                    <button class="dot dot--active" data-target="0"></button>
+                    <button class="dot" data-target="1"></button>
+                    <button class="dot" data-target="2"></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bandeau1">
+                <div class="image11">
+                    <img src="Vitruve.png" alt="vitruve leonard de vinci">
+                    <p>Apprenez en collectionnant : <br> chaque carte raconte une histoire, avec des anecdotes,
+                        des dates clés et des explications accessibles à tous</p>
+                </div>
+                <div class="image21">
+                    <img src="chambreVG.png" alt="chambreVG">
+                    <p>Collectionnez et échangez : <br> bâtissez votre galerie personnelle, complétez vos séries 
+                        et partagez votre passion avec d'autres amateurs d'art.</p>
+                </div>
+                <div class="image31">
+                    <img src="lesamants.png" alt="les amants">
+                    <p>Voyagez dans le temps et l'espace : <br> laissez-vous guider par les grands maîtres 
+                        et explorez la richesse culturelle qui a façonné notre monde.</p>
+                </div>
+        </div>
+        
+        <div class="intermédiaire1">
+            <h4>Les musées</h4>
+        </div>
+
+        <!-- Section Galerie GLightbox -->
+        <section class="carte-box">
+        <div class="carte-container">
+            <div class="galerie">
+
+            <div class="carte tab-card">
+                
+                <a href="moma_resized.jpg" class="glightbox" type="image"
+                data-description="Le Museum of Modern Art, connu sous l'acronyme MoMA, 
+                    est un musée d'art moderne et contemporain inauguré en 1929 et situé depuis 1939 dans le quartier de Midtown 
+                    à Manhattan, New York sur la 53e rue, entre les cinquième et sixième avenues.">
+                <img src="moma_resized.jpg" alt="MoMA">
+                </a>
+            </div>
+            <div class="carte tab-card">
+                <a href="louvre_resized.jpg" class="glightbox" type="image"
+                data-description="Le musée du Louvre est un musée parisien situé au sein du palais du Louvre dans le 1er arrondissement. 
+                Il a le statut de musée national en France. 
+                Ordonnées en neuf départements, ses collections présentent l'art occidental du Moyen Âge à 1848, 
+                celui des civilisations antiques qui l'ont précédé et influencé 
+                (orientales, égyptienne, grecque, étrusque et romaine), 
+                les arts des premiers chrétiens et ceux de l'islam. Avec 72 735 m2 de salles et de galeries, 
+                il s'agit du plus grand musée d'art du monde.">
+                <img src="louvre_resized.jpg" alt="Louvre">
+                </a>
+            </div>
+            <div class="carte tab-card">
+                <a href="vangogh_resized.jpg" class="glightbox" type="image"
+                data-description="Le musée Van-Gogh, principalement consacré au peintre néerlandais Vincent van Gogh, 
+                    est un musée néerlandais, fondé en 1973, situé à Amsterdam sur la Museum.">
+                <img src="vangogh_resized.jpg" alt="VGmuseum">
+                </a>
+            </div>
+        </div>
+
+        <div class="intermédiaire">
+            <h4>Les raretés</h4>
+        </div>
+
+        <div class="bandeau3">
+            <div class="image13">
+                <img src="amandier.png" alt="amandier en fleur">
+                <p>Communes 🟢 <br>
+                    Cartes communes qui présentent des œuvres majeures. 
+                    Faciles à obtenir, elles constituent la base de votre collection.
+                </p>
+            </div>
+            <div class="image23">
+                <img src="napoleon.png" alt="Le sacre de napoleon">
+                <p>Rares 🔵 <br>
+                     Cartes un peu plus difficiles à trouver, 
+                mettant en avant des œuvres emblématiques ou des artistes incontournables,
+                avec des détails et anecdotes supplémentaires.
+                </p>
+            </div>
+            <div class="image33">
+                <img src="hope2.png" alt="L'espoir II">
+                <p>Maître 🟣<br>
+                    Cartes rares, souvent en édition limitée, 
+                qui révèlent des chefs-d'œuvre universels ou
+                des pièces moins connues mais essentielles dans l'histoire de l'art.
+                <p>
+            </div>
+            <div class="image43">
+                <img src="chaussures.png" alt="Chaussures de Van gogh">
+                <p>Légendaires ✨ <br>
+                    Cartes ultra-rares, véritables trésors de collection.
+                    Elles célèbrent des œuvres qui ont marqué durablement l'imaginaire collectif.
+                </p>
+            </div>
+        </div>
+
+        <div class="lien">
+            <a href="annexe.html">Lien vers les autres cartes</a>
+        </div>
+
+    </main>
+
+    <footer id="pagefooter" class="footer">
+        <div class="imagefooter">
+            <img src="carte.png" alt="carte">
+        </div>
+        <div class="textfooter">
+            Tous droits de reproduction et de diffusion réservés © 2025 Histori'art
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+        <script>
+            const lightbox = GLightbox({
+                selector: '.glightbox',
+                loop: true,
+                openEffect: 'zoom',
+                descPosition: 'bottom'
+            });
+        </script>
+    </footer>
+</body>
+</html>
